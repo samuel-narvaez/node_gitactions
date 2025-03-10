@@ -15,4 +15,5 @@ jobs:
         with:
           node-version: 22.11.0
           cache: "npm"
+      - run: npm install
       - run: node index.js
