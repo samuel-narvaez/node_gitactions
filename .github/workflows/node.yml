@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: 22.11.0
           cache: "npm"
-      - run: npm run dev
+      - run: node index.js
